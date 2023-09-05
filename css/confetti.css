@@ -1,0 +1,87 @@
+.animation{
+  position: relative;
+}
+
+
+#confetti-section {
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  
+  #confetti-section h1,#confetti-section h2 {
+    text-align: center;
+    margin: 0;
+    font-family: "Sen", sans-serif;
+  }
+
+  @media (max-width:600px) {
+    #confetti-section {
+      
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* #confetti { */
+
+    /* ------------ */
+    /* position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: 500px !important;
+    height: 100%;
+    width: 100%; */
+    /* -------------- */
+
+    /* position: relative;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  } */

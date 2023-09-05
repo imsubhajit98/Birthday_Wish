@@ -1,0 +1,54 @@
+.bannerImg{
+    width: 100%;
+    position: relative;
+}
+
+.bannerImg img{
+    width: 100%;
+}
+
+.bannerTxt h1 {
+    font-size: 10rem;
+    text-shadow: 3px 3px 5px #000;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .bannerTxt {
+    position: absolute;
+    top: 20%;
+    left:15%;
+  }
+  
+  
+  
+
+ 
+
+  /* @media (max-width:1024px){
+    .bannerTxt h1 {
+        font-size: 4rem;
+    }
+  } */
+
+
+  @media (max-width:912px){
+    .bannerTxt h1 {
+        font-size: 5rem;
+    }
+  }
+
+  @media (max-width:600px){
+    .bannerTxt h1 {
+        font-size: 3rem;
+    }
+  }
+
+
+
+  
+  /* @media (max-width:480px){
+      .bannerTxt h1 {
+          font-size: 10px;
+        }
+    } */

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+span{
+    display: block !important;
+}
+
+.birthday-sec1{
+
+    margin-top: 16%;
+}
+
+.birthday-sec1 h1{
+
+    text-align: center;
+    padding-left: 158px;
+    font-family: Oswald, sans-serif;
+    color: white;
+            font-size: 220px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #5B9A0A;
+            text-shadow: 2px 2px 1px #5B9A0A;
+}
+
+
+.birthday-sec1 h2{
+    text-align: center;
+    margin-bottom: 35px;
+    padding-left: 178px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 66px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #11BEF5;
+    
+    margin-top: -10%;
+}
+
+
+
+.birthday-sec1 span img {
+    width: 672px;
+    height: 200px;
+    text-align: center;
+    padding-left: 250px;
+}

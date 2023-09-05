@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Birthday Page</title>
+
+    <!-- Bootstrap CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/scrollBtn.css" />
+    <link rel="stylesheet" href="./css/confetti.css" />
+    <link rel="stylesheet" href="./css/coutdown.css" />
+    <link rel="stylesheet" href="./css/textAnimation.css" />
+    <link rel="stylesheet" href="./css/timer.css" />
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="stylesheet" href="./TextSection/style.css">
+
+
+
+    <!-- <link rel="stylesheet" href="./birthday section/css/birthday.css">
+    <link rel="stylesheet" href="./birthday section/css/respon.css">
+    <link rel="stylesheet" href="./birthday section/css/respon2.css"> -->
+
+
+
+    <link rel="stylesheet" href="./footer/css/footer.css">
+    <link rel="stylesheet" href="./footer/css/icon.css">
+
+
+    <!-- imgLightbox css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- parallax gallery -->
+    <link rel="stylesheet" href="./gallery_parallax/css/style.css">
+
+    <!-- Song CSS -->
+    <!-- <link rel="stylesheet" href="./sound/css/style.css"> -->
+    <link rel="stylesheet" href="./soundNext/css/style.css">
+
+
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/responsive1.css" />
+</head>
+
+<body>
+    <!-- Header Section Start -->
+    <section class="navbar-main">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top navHead">
+            <div class="container">
+                <img src="" /> <!-- Missing Part -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myAbout">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#myGallery">Gallery</a>
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Header Section End -->
+
+    <!-- <div class="gif2">
+        <span><img src="./img/balls.gif" width="400px" height="400px"></span>
+    </div> -->
+
+    <!--  Hero Section Start -->
+    <!-- <section class="banner">
+        <div class="banner-img">
+            <span class="heroSpan" style="width:100%"> <img src="./img/Group 137.png" width="100%"></span>
+
+            <div class="banner-txt">
+                <h1>SHINE</h1>
+                <h2>BRIGHTLY</h2>
+                <div class="gif1">
+                    <span><img src="./img/60Hym-unscreen.gif" width="260px" height="250px"></span>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--  Hero Section End -->
+
+    <!-- <div style="height:100px; width:100%"></div> -->
+
+    <!-- New hero Section Start -->
+
+    <div class="myGif1">
+        <img src="./img/balls.gif" >
+    </div>
+
+    <div class="bannerImg">
+        <img src="./img/Group 137.png" alt="">
+        <div class="bannerTxt">
+            <h1>SHINE<br> BRIGHTLY</h1>
+        </div>
+    </div>
+
+    <div class="myGif2">
+        <img src="./img/60Hym-unscreen.gif" >
+    </div>
+    <!-- New hero Section End -->
+
+
+
+
+
+
+    <!-- Timer Section Start  -->
+
+    <div class="backgroundFixed">
+        <section id="timer-section">
+
+            <!-- time_section -->
+            <div class="main">
+
+                <div class="countdown">
+
+                    <div>
+                        <span class="number weeks"></span>
+                        <span>Weeks</span>
+                    </div>
+
+                    <div>
+                        <span class="number days"></span>
+                        <span>Days</span>
+                    </div>
+
+                    <div>
+                        <span class="number hours"></span>
+                        <span>Hours</span>
+                    </div>
+
+                    <div>
+                        <span class="number minutes"></span>
+                        <span>Minutes</span>
+                    </div>
+
+                    <div>
+                        <span class="number seconds"></span>
+                        <span>Seconds</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Timer Section End  -->
+
+
+
+    <!-- Text Animation -->
+    <div class="animation">
+        <div id="confetti-section" class="text-container hidden">
+            <h1 class="heading1">HAPPY BIRTHDAY</h1>
+            <!-- <h1 class="heading2">TANIA</h1> -->
+
+
+            <div class="content">
+                <h2>TANIA</h2>
+                <h2>TANIA</h2>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- 1_to_10_countdown -->
+    <div class="clock hidden"></div>
+
+    <!-- Birthday Queen Section Start -->
+    <!-- <section class="birthday" id="myAbout">
+        <div class="container-fluid">
+            <div class="row birthBox">
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="birthday-sec">
+                        <span><img src="./img/Group 43.png" alt="" srcset=""></span>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="birthday-sec1">
+                        <h1>TANIA</h1>
+                        <h2>BIRTHDAY QUEEN</h2>
+                        <span><img src="./img/Group 123.png" alt="" srcset=""></span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section> -->
+    <!-- Birthday Text Section Start-->
+    <div class="mainTextSection" id="myAbout">
+        <div class="textsection1">
+            <img src="./img/Group 43.png" alt="">
+        </div>
+        <div class="textsection2">
+            <div class="text1">
+                <h1>TANIA</h1>
+                <h2>Birthday Queen</h2>
+            </div>
+            <div class="text2">
+                <img src="./img/Group 123.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Birthday Text Section End-->
+
+
+
+    <!-- Birthday Queen Section End -->
+    <div style="height:80px"></div>
+
+    <!-- Slider Gallery Start -->
+    <div class="bg">
+        <!-- <img src="img/sliderBg.png"> -->
+        <!-- <div class="overlay"></div> -->
+    </div>
+    <section class="main">
+        <div class='box'>
+            <span style='--i:1'><img src="img/slider (1).jpg"></span>
+            <span style='--i:2'><img src="img/slider (2).jpg"></span>
+            <span style='--i:3'><img src="img/slider (3).jpg"></span>
+            <span style='--i:4'><img src="img/slider (4).jpg"></span>
+            <span style='--i:5'><img src="img/slider (5).jpg"></span>
+            <span style='--i:6'><img src="img/slider (6).jpg"></span>
+            <span style='--i:7'><img src="img/slider (7).jpg"></span>
+            <span style='--i:8'><img src="img/slider (8).jpg"></span>
+        </div>
+    </section>
+    <!-- Slider Gallery End -->
+
+
+
+
+
+
+    <!-- love Logo Section Start -->
+    <div class="loveLogo">
+        <img src="./img/loveLogo.png" alt="">
+
+        <!-- Animated Emoji Start -->
+        <div class="emojiAnimate">
+            <img class="emoji1" src="./img/bird (3).png" alt="">
+            <img class="emoji2" src="./img/bird (2).png" alt="">
+        </div>
+        <!-- Animated Emoji End -->
+    </div>
+    <!-- love Logo Section End -->
+
+
+
+    <!-- Video Section Start -->
+    <!-- <div class="videoPlayer"> -->
+    <div class="video-box" >
+        <div class="player" id="player">
+            <video class="player_video viewer" src="./img/video2.mp4" poster="./img/Capture.PNG">
+                
+            </video>
+            <div class="videoDiv">
+                <img class="videoImg" src="./img/pngegg.png" alt=""  >
+            </div>
+            <div class="player_controls">
+
+                <div class="progress-range" title="Jump-to">
+                    <div class="progress-bar"></div>
+                </div>
+
+                <div class="left-controls">
+                    <button class="player_button toggle" title='Toggle Play'><i class="fa fa-thin fa-heart" title="Like"
+                            id="love-button"></i></button>
+                    <button class="player_button toggle" title='Toggle Play'><i class="fa fa-play" title="Play"
+                            id="play-btn"></i></button>
+                    <button class="player_button stop" title='Start over'><i class="fa fa-stop" title="Stop"
+                            id="stop-btn"></i></button>
+                    <button class="player_button speaker"><i id="speaker_icon" class="fa fa-volume-up"
+                            aria-hidden="true" title="Speaker"></i></button>
+                    <input type="range" name="volume" class="player_slider" min="0" max="1" step="0.05"
+                        value="1"></input>
+                </div>
+
+                <div class="right-controls">
+                    <button class="player_button toggle" title='Download'><a href="./img/video2.mp4" download><i
+                                class=" fa fa-solid fa-download" title="Download" id="download-btn"></i></a></button>
+                    <button data-skip="-10" class="player_button"><i class="fa fa-fast-backward"
+                            aria-hidden="true" title="Backward"></i></button>
+                    <button data-skip="10" class="player_button"><i class="fa fa-fast-forward"
+                            aria-hidden="true" title="Forward"></i></button>
+
+                    <!-- <div class="time" >
+                            <span class="time-elapsed">00:00 / </span>
+                            <span class="time-duration">2:38</span>
+                        </div> -->
+
+                    <button class="player_button screenSize"><i id="screenSize_icon" class="fa fa-expand"
+                            aria-hidden="true" title="Fullscreen" ></i></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <!-- Video Section End -->
+    <div style="height:50px"></div>
+    <!-- Parallax Gallery Start-->
+    <div class="gallery" id="myGallery">
+
+        <a href="./gallery_parallax/img/img_1.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_1.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_2.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_2.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_3.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_3.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_4.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_4.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_5.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_5.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_6.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_6.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_7.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_7.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_8.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_8.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_9.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_9.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_10.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_10.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_11.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_11.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_12.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_12.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_13.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_13.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_14.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_14.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_15.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_15.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_16.png" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_16.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_17.png" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_17.png">
+        </a>
+
+        <a href="./gallery_parallax/img/img_18.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_18.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_19.jpg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_19.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_20.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_20.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_21.jpg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_21.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_22.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_22.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_23.jpg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_23.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_24.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_24.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_25.jpg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_25.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_26.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_26.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_27.jpg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_27.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_28.jpg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_28.jpg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_29.jpeg" download class="imgLightbox mouse" value="13">
+            <img src="./gallery_parallax/img/img_29.jpeg">
+        </a>
+
+        <a href="./gallery_parallax/img/img_30.jpeg" download class="imgLightbox mouse" value="-13">
+            <img src="./gallery_parallax/img/img_30.jpeg">
+        </a>
+
+    </div>
+    <!-- Parallax Gallery End-->
+
+    <!-- Footer Section Start -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-img">
+                    <span><img src="./footer/img/birth day footer.png" width=100% alt=""></span>
+                    <!-- <div class="footer-txt">
+                        <span><img src="./footer/img/STAR.png"  alt=""></span>
+                    </div> -->
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- CopyRight section Start -->
+    <section class="copyright">
+        <div class=" manythings">
+            <div class="copy-text">
+
+                <div class="more">
+                    <h1>Many More Candles to Blow,
+                        Thank You</h1>
+                    <div class="logoContainer">
+                        <div class="mainLogo">
+                            <div class="box-1 boxx"><a href="#"><img src="./footer/img/facebook.png" alt=""></a></div>
+                            <div class="box-2 boxx"><a href="#"><img src="./footer/img/whatsapp.png" alt=""></a></div>
+                            <div class="box-3 boxx"><a href="#"><img src="./footer/img/instagram.png" alt=""></a></div>
+                            <div class="box-4 boxx"><a href="#"><img src="./footer/img/youtube.png" alt=""></a></div>
+                            <div class="box-5 boxx"><a href="#"><img src="./footer/img/twitter.png" alt=""></a></div>
+                            <div class="box-6 boxx"><a href="#"><img src="./footer/img/pinsart.png" alt=""></a></div>
+                        </div>
+                    </div>
+                    <h6>Copyright @ 2023 Powered by Subhajit Guchhait All Rights Reserved.</h6>
+                </div>
+
+            </div>
+
+            <div class="copy-img">
+                <img src="./footer/img/STAR.png"  alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <!-- CopyRight section End -->
+
+    <!-- song -->
+  <!-- Top button -->
+  <a class="topBtn" id="button"><i class="fa-solid fa-arrow-up"></i></a>
+  <a class="topBtn1 bgDark" id="button1"><i class="fa-solid fa-sun"></i></a>
+
+
+
+
+
+
+
+
+
+    <!--   *****   JQuery Link   *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <!-- parallax_js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+    <!-- imgLightbox js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <!-- Parallax Gallery JS -->
+    <script src="./gallery_parallax/js/script.js"></script>
+
+
+    <!-- Bootstrap JS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.9.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./js/script.js"></script>
+    <script src="./js/video.js"></script>
+    <script src="./js/scrollBtn.js"></script>
+
+    <!-- <script src="./sound/js/script.js"></script> -->
+    <!-- <script src="./soundNext/js/script.js"></script> -->
+    <!-- <script src="./js/audioVideo.js"></script> -->
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  span {
+    display: block !important;
+  }
+  
+.footer-img{
+    position: relative;
+}
+
+
+.footer-txt{
+    position: absolute;
+    top: 74%;
+    left: -42%;
+    text-align: center;
+    z-index: 99;
+}
+
+.footer-txt h1{
+    font-weight: bolder;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+.footer-txt h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+                                                
+    /* font-weight: bolder; */
+    font-weight: 900;
+}
+/* footer section end */
+
+/* copyright section start */
+
+.manythings{
+    
+    width: 100%;
+}
+.copy-text h1 {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.copy-text{
+    background-color:rgba(174,249,255,.5);
+    padding: 20px;
+opacity: 0.8;
+}
+
+.copy-text h6 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-weight: 900;
+}
+.copyright{
+  
+
+  margin-top: -13rem;
+ 
+}
+
+
+.copy-img{
+    margin-top: -15rem;
+    margin-left: -60px;
+    position: absolute;
+    
+}
+.copy-img img{
+  width: 30%;
+}
+
+@media(max-width:912px){
+
+
+  .copyright{
+    background-color: #fff;
+    opacity: .8;
+    margin-top: -8rem;
+   
+  }
+  .copy-text {
+    background-color: #AEF9FF;
+    padding: 23px;
+    opacity: 0.8;
+}
+
+
+
+
+  .copy-text h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+    
+.logoContainer {
+   
+    padding-bottom: 37px !important;
+}
+
+.copy-text h6 {
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.copy-img{
+  margin-top: -10rem;
+  margin-left: -25px;
+  position: absolute;
+}
+
+
+.logoContainer {
+ 
+  margin-top: -1rem !important;
+  padding-bottom: 15px;
+}
+
+.footer-txt {
+    position: absolute;
+    top: 77%;
+    left: 0%;
+    width: 45%;
+    z-index: 999;
+}
+.footer-txt  span img{
+  background-color: red;
+  width: 50%;
+}
+
+
+
+.copy-text h6 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+}
+
+/* end tab view */
+
+
+/* start mobile view */
+@media(max-width:586px){
+
+  .copy-text h1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.copyright {
+  background-color: #fff;
+  opacity: .8;
+  margin-top: -5rem;
+  padding-bottom: 27px;
+}
+.copy-text h6 {
+  text-align: center;
+  padding-bottom: 0px;
+  font-size: 12px;
+}
+
+
+  .copy-img{
+    margin-top: -10rem;
+    margin-left: -40px;
+    position: absolute;
+  }
+
+
+.copy-img img{
+  width: 30%;
+}
+.logoContainer {
+  margin-top: -2rem !important;
+  padding-bottom: 13px;
+}
+
+
+.footer-txt h1 {
+  font-weight: bolder;
+  font-family: 'Moon Dance', cursive;
+  font-size: 20px;
+}
+
+.footer-txt {
+    position: absolute;
+    top: 78%;
+    left: -18%;
+    text-align: center;
+}
+.footer-txt h4 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 900;
+  font-size: 17px;
+}
+
+
+}
+
+/* end mobile view */
+
+
+@media (max-width: 414px){
+    .copy-text h6 {
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 290px){
+    .copy-text h1 {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .copy-text h6 {
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: 7px;
+    }
+
+    [class^="box-"] {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-txt {
+        position: absolute;
+        top: 74%;
+        left: -17%;
+        text-align: center;
+    }
+
+    .copy-text {
+        background-color: #AEF9FF;
+        padding: 8px;
+        opacity: 0.8;
+    }
+
+    .logoContainer {
+        padding-bottom: 26px !important;
+    }
+
+    .copyright {
+        background-color: #fff;
+        opacity: .8;
+        margin-top: -2rem;
+        padding-bottom: 24px;
+    }
+
+    .footer-txt {
+        position: absolute;
+        top: 96%;
+        left: -17%;
+        text-align: center;
+    }
+
+
+}

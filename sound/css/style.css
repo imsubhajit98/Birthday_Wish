@@ -1,0 +1,49 @@
+
+.song{
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  animation: trans 2s infinite linear;
+  z-index: 910;
+}
+
+
+@keyframes trans {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+.pause {
+	cursor:pointer;
+  font-size: 30px;
+  padding: 10px ;
+  background: linear-gradient(to right, #ff000000, #00ff00);
+  border-radius: 50%;
+  box-shadow:  1px 2px 4px rgba(0, 0, 0, .75);
+
+}
+
+@media (max-width:600px) {
+  .song{
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    animation: trans 2s infinite linear;
+    z-index: 910;
+  }
+
+
+  .pause {
+    font-size: 15px;
+    padding: 5px ;
+  }
+
+}
+

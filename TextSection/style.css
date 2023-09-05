@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.innerDiv{
+    width: 100%;
+    height: 300px;
+}
+
+.mainTextSection{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.mainTextSection .textsection1{
+    width: 40%;
+}
+.mainTextSection .textsection2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.textsection1 img{
+    width: 100%;
+}
+
+.textsection2 .text1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textsection2 .text2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 h1{
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    color: white;
+    font-size: 15rem;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #559501;
+    text-shadow: 2px -2px 5px #9fa09e;
+}
+
+.text1 h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 5.2rem;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #11BEF5;
+    margin-top: -100px;
+    padding-left: 22px;
+}
+
+.text2 img{
+    width: 70%;
+}
+
+@media(max-width:950px){
+    .mainTextSection .textsection2{
+        gap: 20px;
+    }
+
+    .text1 h1{
+        font-size: 9rem;
+    }
+
+    .text1 h2{
+        font-size: 3.2rem;
+        position: absolute;
+        margin-top: 100px;
+    }
+
+    .text2 img{
+        width: 60%;
+    }
+}
+
+
+@media(max-width:640px){
+    .mainTextSection .textsection2{
+        gap: 15px;
+    }
+
+    .text1 h1{
+        font-size: 6.5rem;
+    }
+
+    .text1 h2{
+        font-size: 2.2rem;
+        margin-top: 80px;
+    }
+    
+    .text2 img{
+        width: 50%;
+    }
+}
+
+@media(max-width:480px){
+    .mainTextSection .textsection2{
+        gap: 10px;
+    }
+
+    .text1 h1{
+        font-size: 4.5rem;
+    }
+
+    .text1 h2{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    
+    .text2 img{
+        width: 50%;
+    }
+}
